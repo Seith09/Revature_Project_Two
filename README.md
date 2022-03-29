@@ -1,27 +1,24 @@
-# MovieAppProject
+# Employee Reimbursement System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+## Movie Application Project
 
-## Development server
+This project is a movie critics application using Restful Api, Angular CLI, & Springboot. This web application creates a user experience to watch and review their films. Each review gives the member a rank/badge, a potential way to earn a directors' seat badge. This encourages the user to access the site frequently to watch more movies and provides validation that they know what films are good or not.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
 
-## Code scaffolding
+* Java (Intellij IDE)
+* Angular
+* NodeJS
+* H2 virtual database
+* Bootstrap
+* Spring Data
+* Spring Boot
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+List of features ready and TODOs for future development
+* View lists of movies based off categories such as: 'Now In Theaters', 'Most Popular", 'Kids', 'Adults' etc. Or you can search for movies and see their descriptions along with their critic rating.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To-do list:
+* git clone https://github.com/Seith09/Revature_Project_Two.git
+* navigate to the app base app folder directory in the terminal and run the command ng s -o.

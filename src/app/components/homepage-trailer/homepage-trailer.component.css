@@ -1,0 +1,16 @@
+
+.jumbotron{
+    width: 80%;
+}
+
+.trailer-banner{
+    margin: 40px;
+}
+
+.container {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+}

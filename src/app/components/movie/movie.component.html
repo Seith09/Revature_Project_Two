@@ -1,0 +1,18 @@
+<div>
+  <h1 class="text-center ">Most Popular</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="card text-white bg-dark mb-3" *ngFor="let movie of movies" style="width: 18rem; margin: 40px;">
+      <img src="{{ 'https://image.tmdb.org/t/p/w500' + movie.poster_path }}" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title text-white bg-dark mb-3">{{ movie.original_title }}</h5>
+        <p class="card-text text-white bg-dark mb-3">{{ movie.overview }}
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item text-white bg-dark mb-3">Rating: {{ movie.vote_average }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
